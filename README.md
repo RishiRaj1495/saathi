@@ -1,54 +1,182 @@
-# Saathi — DesignVerse 2026 Submission
+<div align="center">
 
-**Team Tech Tinkerers**
-Rishi Raj (24BCE10149) · Swastik Sinha (24BEY10075) · Abhilash Singh (24BCE10706)
+<br/>
 
-Category: HTML / CSS / JavaScript · File: `saathi.html`
+# 🤝 Saathi
+### *Be the reason someone chooses their health today.*
+
+<br/>
+
+> **India's healthcare problem isn't about hospitals. It's about the ten seconds before someone decides to pick up the phone.**
+
+<br/>
+
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-saathi--beta.vercel.app-6366f1?style=for-the-badge)](https://saathi-beta.vercel.app/)
+[![DesignVerse 2026](https://img.shields.io/badge/🏆%20DesignVerse-2026%20Submission-f59e0b?style=for-the-badge)](https://saathi-beta.vercel.app/)
+[![React](https://img.shields.io/badge/React-18.3-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5.4-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-11.3-0055ff?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+
+<br/>
+
+</div>
 
 ---
 
-## How to run it
+## ✦ The Problem, In One Line
 
-Double-click `saathi.html`, or open it in any browser. That's the whole setup — no server, no build step, no API key, no internet connection required after the page loads (it only needs network access once, to load two Google Fonts). Everything else, including the chat companion, runs entirely client-side, so the demo can't fail because of wifi on stage.
+Every health app assumes the user has already decided to act — and just needs a *form.*
+
+Nobody is building for **the moment of hesitation itself.**
+
+Fear of diagnosis, social stigma, masculinity norms, cost anxiety, time pressure, and plain denial all do their damage *before* a person ever reaches a hospital. Saathi was built for that gap.
 
 ---
 
-## The problem, restated in one line
+## ✦ What We Built
 
-India's healthcare access problem isn't really about hospitals or distance anymore — it's about the ten seconds before someone decides to pick up the phone. Fear of diagnosis, social stigma, masculinity norms, cost anxiety, lack of time, and plain denial all do their damage *before* a person ever reaches the system that could help them.
+A single-page companion that walks someone from *"I can't bring myself to go"* to *"I know my next step"* — in under five minutes.
 
-## Our insight
+```
+Name it  →  Talk it through  →  Know where to go  →  Take one tiny step
+```
 
-Every existing health app assumes the user has already decided to act, and just needs a *form*. Nobody is building for the moment of hesitation itself. So Saathi doesn't open with a symptom checker — it opens by asking the one honest question nobody else asks: **"What's actually stopping you?"**
+### Step 1 — Name It 🏷️
+A barrier picker surfaces six root causes: **Fear of Diagnosis, Social Stigma, Masculinity Norms, Cost Concerns, Lack of Time, Denial & Uncertainty.** Select one or more, and a personalised pathway appears instantly. No login. Nothing saved. Nothing sent anywhere.
 
-## What we built
+### Step 2 — Talk It Through 💬
+**Saathi** — a built-in conversational companion — classifies what you type across 8 emotional categories (fear, stigma, masculinity, cost, time, denial, general distress, crisis) and responds with warm validation plus *one small, concrete next step.* Never a diagnosis.
 
-A single-page web companion with four connected steps, designed to be walked through in under five minutes:
+> Crisis detection is a hard-coded, non-negotiable safety behaviour — not a soft instruction. If anyone types language suggesting self-harm, Saathi immediately surfaces Tele-MANAS and KIRAN, bypassing all other logic.
 
-1. **Name it.** A barrier picker — Fear of Diagnosis, Social Stigma, Masculinity Norms, Cost Concerns, Lack of Time, Denial & Uncertainty — generates a personalised "pathway" the moment you select one or more. No login, nothing saved, nothing sent anywhere.
-2. **Talk it through.** A built-in conversational companion, Saathi, that classifies what a person types (fear, stigma, masculinity, cost, time, denial, general distress, or crisis language) and responds with validation plus one small, concrete next step — never a diagnosis. It is rule-based and deterministic, not a black box: every response is reviewed copy, not a model improvising. If anyone types language suggesting self-harm or suicidal thoughts, Saathi immediately surfaces real crisis helplines (Tele-MANAS, KIRAN) instead of continuing the small-talk flow — a safety behaviour we treated as non-negotiable, not an afterthought.
-3. **Know where to go.** A directory of real, verified Indian government helplines (Tele-MANAS 14416, KIRAN 1800-599-0019, Ayushman Bharat/PM-JAY 14555, National Health Helpline 104, Ambulance 108) — tap-to-call on mobile.
-4. **Take one tiny step.** A lightweight checklist ("saved a number," "told one person," "set a 48-hour rule") that turns the abstract advice from steps 1–3 into something gamified and trackable in the same session.
+### Step 3 — Know Where to Go 📞
+A directory of verified Indian government helplines, tap-to-call on mobile:
 
-## Why this fits the brief
+| Helpline | Number | Purpose |
+|---|---|---|
+| Tele-MANAS | `14416` | 24/7 mental health, 20+ languages |
+| KIRAN | `1800-599-0019` | Mental health rehab, anonymous |
+| PM-JAY / Ayushman Bharat | `14555` | Free treatment eligibility |
+| National Health Line | `104` | Medical advice over the phone |
+| Ambulance | `108` | Emergency |
 
-- **Addresses emotional and psychological barriers directly** — every barrier named in the problem statement (fear, stigma, masculinity, cost, time, denial) gets its own dedicated copy, pathway, and chat-response logic, not generic wellness platitudes.
-- **Builds trust, comfort and confidence** — anonymous by design, no account, no data persistence, warm non-clinical language, and a visible "Saathi doesn't diagnose" disclaimer so expectations stay honest.
-- **Drives real behaviour change** — the whole product is engineered around *micro-commitments* (a 5-minute check, a 10-minute call, telling one person) rather than asking for the big leap ("go to a hospital") that's exactly what causes the freeze in the first place.
-- **Impact areas** — early detection (the 48-hour rule), preventive care and mental wellbeing (Tele-MANAS/KIRAN integration), and community health (the masculinity-norms pathway is built specifically around India's gendered help-seeking gap, where men are dramatically under-represented among helpline callers).
+### Step 4 — Take One Tiny Step ✅
+A lightweight micro-commitment checklist — *"saved a number," "told one person," "set a 48-hour rule"* — turns abstract awareness into a gamified, trackable action in the same session.
 
-## Tech notes (for the judges' Q&A)
+---
 
-- Single HTML file, vanilla JS, no framework, no dependencies beyond two Google Fonts (Fraunces for display, Karla for body, IBM Plex Mono for data/numbers) — chosen deliberately so the product feels human and editorial rather than like a sterile clinical app.
-- The Saathi chat is a keyword-classification engine with multiple response variants per category (so it doesn't feel robotic on repeat use) and a hard-coded crisis-detection path that always takes priority over everything else.
-- The scroll-linked "sunrise" element down the right edge of the page is the visual signature: the page's colour temperature literally warms from indigo dusk to marigold dawn as the user moves from "naming the problem" to "taking action" — mirroring the emotional arc the product is designed around.
-- **Roadmap if this became a real product:** swap the rule-based classifier for an LLM (e.g. via the Claude API) with the *same* safety guardrails hard-coded rather than left to the model — crisis detection should never be a soft instruction. Add real teleconsult booking (eSanjeevani integration), regional language support (the barriers and chat copy are short enough to translate cleanly), and anonymised aggregate analytics for the host institution to see which barriers are most common on campus, without ever storing individual conversations.
+## ✦ Why It Works
 
-## Submission checklist mapping
+The whole product is engineered around **micro-commitments**, not big leaps. Asking someone to "go to a hospital" is exactly what causes the freeze. Asking them to save one number doesn't.
+
+The scroll-linked **"sunrise" gradient** down the page is the visual signature: colour temperature literally warms from indigo dusk to marigold dawn as the user moves from naming the problem to taking action — mirroring the emotional arc the product is designed around.
+
+---
+
+## ✦ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | React 18.3 |
+| Build Tool | Vite 5.4 |
+| Animations | Framer Motion 11.3 |
+| Fonts | Fraunces · Karla · IBM Plex Mono |
+| Deployment | Vercel |
+
+> Fonts were chosen deliberately — editorial and human rather than sterile and clinical.
+
+---
+
+## ✦ Getting Started
+
+```bash
+git clone https://github.com/RishiRaj1495/saathi.git
+cd saathi
+npm install
+npm run dev
+```
+
+The dev server starts at `http://localhost:5173`. No API keys. No environment variables. No external services required.
+
+```bash
+npm run build    # production build → dist/
+npm run preview  # preview the production build locally
+```
+
+---
+
+## ✦ Project Structure
+
+```
+saathi/
+│
+├── index.html          # Entry point — Fraunces, Karla, IBM Plex Mono fonts
+├── vite.config.js      # Vite + React plugin config
+├── package.json        # React 18, Framer Motion, Vite
+│
+└── src/
+    └── main.jsx        # React app entry — all four steps live here
+```
+
+---
+
+## ✦ The Roadmap
+
+If Saathi became a real product, the next steps would be:
+
+- **Swap rule-based chat → LLM** (e.g. Claude API) with the *same* safety guardrails hard-coded, not left to the model
+- **eSanjeevani integration** — real teleconsult booking directly from Step 3
+- **Regional language support** — the copy is short enough to translate cleanly into Hindi, Tamil, Bengali, and more
+- **Anonymised aggregate analytics** — so institutions can see which barriers are most common on campus, without ever storing individual conversations
+
+---
+
+## ✦ Team
+
+**Tech Tinkerers** · DesignVerse 2026
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/RishiRaj1495">
+        <img src="https://avatars.githubusercontent.com/RishiRaj1495" width="80px" style="border-radius:50%; border: 2px solid #6366f1;" alt="Rishi Raj"/><br/>
+        <sub><b>Rishi Raj</b></sub><br/>
+        <sub>24BCE10149</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/swastiksinha1">
+        <img src="https://avatars.githubusercontent.com/swastiksinha1" width="80px" style="border-radius:50%; border: 2px solid #6366f1;" alt="Swastik Sinha"/><br/>
+        <sub><b>Swastik Sinha</b></sub><br/>
+        <sub>24BEY10075</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/AbhilashSingh">
+        <img src="https://avatars.githubusercontent.com/u/224326754?v=4" width="80px" style="border-radius:50%; border: 2px solid #6366f1;" alt="Abhilash Singh"/><br/>
+        <sub><b>Abhilash Singh</b></sub><br/>
+        <sub>24BCE10706</sub>
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
+
+---
+
+## ✦ Submission Checklist
 
 | Requirement | Status |
 |---|---|
-| Complete source code | `saathi.html` — single file, fully self-contained |
-| Project category | HTML / CSS / JavaScript |
-| Working demo | Open the file directly — every interaction (barrier picker, chat, resources, tracker) works with no setup |
-| Team details | Tech Tinkerers — Rishi Raj (24BCE10149), Swastik Sinha (24BEY10075), Abhilash Singh (24BCE10706) |
+| Complete source code | ✅ `src/main.jsx` — fully self-contained React app |
+| Project category | ✅ HTML / CSS / JavaScript (React + Vite) |
+| Working demo | ✅ [saathi-beta.vercel.app](https://saathi-beta.vercel.app/) — live, no setup needed |
+| Team details | ✅ Tech Tinkerers — Rishi Raj, Swastik Sinha, Abhilash Singh |
+| Crisis safety behaviour | ✅ Hard-coded crisis detection → helplines, always takes priority |
+
+---
+
+<div align="center">
+  <sub>Built with care for the one who almost didn't make the call.</sub>
+</div>
