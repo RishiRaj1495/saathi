@@ -13,9 +13,7 @@
 
 [![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-saathi--beta.vercel.app-6366f1?style=for-the-badge)](https://saathi-beta.vercel.app/)
 [![DesignVerse 2026](https://img.shields.io/badge/🏆%20DesignVerse-2026%20Submission-f59e0b?style=for-the-badge)](https://saathi-beta.vercel.app/)
-[![React](https://img.shields.io/badge/React-18.3-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-5.4-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-11.3-0055ff?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+
 
 <br/>
 
@@ -77,9 +75,9 @@ The scroll-linked **"sunrise" gradient** down the page is the visual signature: 
 
 | Layer | Technology |
 |---|---|
-| Framework | React 18.3 |
-| Build Tool | Vite 5.4 |
-| Animations | Framer Motion 11.3 |
+| Framework | React 18 |
+| Build Tool | Vite 5 |
+| Animations | Framer Motion 11 |
 | Fonts | Fraunces · Karla · IBM Plex Mono |
 | Deployment | Vercel |
 
@@ -110,12 +108,11 @@ npm run preview  # preview the production build locally
 ```
 saathi/
 │
-├── index.html          # Entry point — Fraunces, Karla, IBM Plex Mono fonts
+├── index.html          # Entry point
 ├── vite.config.js      # Vite + React plugin config
-├── package.json        # React 18, Framer Motion, Vite
+├── package.json        # React, Framer Motion, Vite
 │
-└── src/
-    └── main.jsx        # React app entry — all four steps live here
+└── src/                # All app logic lives here
 ```
 
 ---
@@ -162,18 +159,6 @@ If Saathi became a real product, the next steps would be:
   </tr>
 </table>
 </div>
-
----
-
-## ✦ Submission Checklist
-
-| Requirement | Status |
-|---|---|
-| Complete source code | ✅ `src/main.jsx` — fully self-contained React app |
-| Project category | ✅ HTML / CSS / JavaScript (React + Vite) |
-| Working demo | ✅ [saathi-beta.vercel.app](https://saathi-beta.vercel.app/) — live, no setup needed |
-| Team details | ✅ Tech Tinkerers — Rishi Raj, Swastik Sinha, Abhilash Singh |
-| Crisis safety behaviour | ✅ Hard-coded crisis detection → helplines, always takes priority |
 
 ---
 
