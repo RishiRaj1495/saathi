@@ -41,7 +41,7 @@ export const barriers = [
   },
   {
     id: 'denial',
-    label: 'Denial & uncertainty',
+    label: 'Denial and uncertainty',
     title: '"Probably nothing" is doing a lot of heavy lifting',
     ack: 'Maybe it is nothing. The only way to actually stop wondering is to check, once, instead of carrying the question around.',
     step: "Tiny next step: set a 48-hour rule with yourself. If it's still there in 2 days, you call — write the date down now.",

@@ -954,7 +954,7 @@ function Hero() {
               />
               <Eyebrow>The real problem statement</Eyebrow>
               <p style={{ fontSize: 15, color: 'var(--soft)', marginBottom: 18, lineHeight: 1.65 }}>
-                India has hospitals, clinics, and telemedicine within reach of most people. The gap isn't access. It's the seconds before someone picks up the phone.
+                India has significantly improved healthcare access — hospitals, clinics, diagnostic centers, telemedicine. Yet people still delay or avoid seeking help even with symptoms already in front of them. The challenge was never the facilities. It's the hesitation before someone walks in.
               </p>
               <motion.p
                 animate={{ opacity: [0.7, 1, 0.7] }}
@@ -1636,7 +1636,7 @@ function Footer() {
             ))}
           </div>
           <p style={{ maxWidth: 400, fontSize: 12.5, color: '#6E6248', lineHeight: 1.7 }}>
-            Saathi identifies emotional and psychological barriers to healthcare-seeking and nudges people toward small, low-pressure actions. It does not diagnose and is not a substitute for professional medical or mental health care. Built in 48 hours for VIT Bhopal DesignVerse 2026.
+            Saathi identifies the emotional, psychological, social, and cultural barriers that delay healthcare-seeking, and nudges people toward small, low-pressure actions. It does not diagnose and is not a substitute for professional medical or mental health care. Built in 48 hours for VIT Bhopal DesignVerse 2026.
           </p>
         </div>
       </div>
